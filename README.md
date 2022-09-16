@@ -1,1 +1,1 @@
-# Por favor ser organizador con las carpetas
+# Por favor ser organizados con las carpetas
