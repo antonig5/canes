@@ -1,0 +1,88 @@
+#res{
+    box-shadow: 0px 10px 12px black;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 480px;
+    height: 450px;
+    background: url("../client/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#h2 {
+    width: 480px;
+    margin-left: 60px;
+    margin-top: 50px;
+    position: relative;
+    top: 5px;
+    border-radius: 10px;
+    color: black;
+    height: 40px;
+}
+
+#h2_1 {
+    padding-top: 10px;
+    margin-left: 150px;
+    font-weight: bold;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+}
+
+#inp1 {
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 180px;
+    width: 255px;
+    height: 30px;
+    text-align: center;
+}
+
+#lab1 {
+    color: black;
+    font-size: 18px;
+    width: 50px;
+    margin-left: 50px;
+    position: relative;
+    top: 35px;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+}
+
+#inp2 {
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 180px;
+    width: 255px;
+    height: 30px;
+    text-align: center;
+}
+
+#lab2 {
+    color: black;
+    font-size: 18px;
+    width: 50px;
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+}
+/*d*/
+
+#respuesta{
+    
+    width: 250px;
+    margin-left: 250px;
+    margin-top: -150px;
+
+}
+#respuesta table{
+    background-color: yellow;
+}
+#respuesta  h3{
+    color: red;
+    margin-left: 50px;
+}
