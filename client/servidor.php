@@ -1,4 +1,3 @@
-
 <?php 
 require("../conexion/conexion.php");
 
@@ -22,8 +21,3 @@ if($codigo==" " && $nombre==" "){
 	
 	<tr><td>$codigo</td><td>$nombre</td><td>$apellido</td><td>$direccion</td><td>$celular</td></tr></table>");
 }
-
-
-
-
-	
