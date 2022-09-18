@@ -70,6 +70,96 @@
     font: bold 18px/1 arial;
     text-transform: uppercase;
 }
+
+#inp3 {
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 180px;
+    width: 255px;
+    height: 30px;
+    text-align: center;
+}
+
+#lab3 {
+    color: black;
+    font-size: 18px;
+    width: 50px;
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+}
+
+#inp4 {
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 180px;
+    width: 255px;
+    height: 30px;
+    text-align: center;
+}
+
+#lab4 {
+    color: black;
+    font-size: 18px;
+    width: 50px;
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+}
+
+#inp5 {
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 180px;
+    width: 255px;
+    height: 30px;
+    text-align: center;
+}
+
+#lab5 {
+    color: black;
+    font-size: 18px;
+    width: 50px;
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+}
+
+#bot {
+    height: 100px;
+    width: 100px;
+    color: transparent;
+    background-image: url(../client/guardar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    transition: transform 200ms, box-shadow 200ms;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+    border: solid black;
+    border-radius: 80px;
+}
+
+#bot:hover {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+    color: #fff;
+    color: var(--accent-color);
+    color: transparent;
+    text-decoration: none;
+}
+
 /*d*/
 
 #respuesta{
