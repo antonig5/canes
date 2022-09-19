@@ -44,7 +44,7 @@ include 'conexion.php';
         var orden = "ordenes.php";
 
 
-        // console.log(datos)
+
         fetch('ordenes.php')
             .then(res => res.json())
             .then(datos => {
