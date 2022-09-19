@@ -1,0 +1,33 @@
+li,a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+#a1{
+    width: 140px;
+    height: 40px;
+
+    text-align: center;
+    background-color: cadetblue;
+    margin-left: 690px;
+}
+
+
+#a{
+    background-color: cadetblue;
+    margin-left: 20px;
+}
+
+
+
+.carousel{
+    margin-top: 20px;
+    margin-left: 72px;
+    width: 1210px;
+}
+
+img{
+    width: 1200px;
+    height: 580px;
+}
