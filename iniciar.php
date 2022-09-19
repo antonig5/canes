@@ -81,6 +81,16 @@ var usuario = document.getElementById('usuario');
 
 
 
+fetch('json/users.php?id_usu=123')
+    .then(res=>res.json())
+    .then(data=>{
+      console.log(data.id_usu="123");
+        if (usuario == data.id_usu) {
+            window.location='admin/index.php';
+        }
+    });
+
+
 btn.addEventListener('click', function(evt){
 
       if(clave.value === ''){
@@ -109,7 +119,7 @@ btn.addEventListener('click', function(evt){
 
     </script>
 
-
+<a href="<script>"></a>
 
 </body>
 </html>

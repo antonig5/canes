@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="styles/index.css">
     <title>Spa Canino</title>
 </head>
 <body>
@@ -52,13 +52,13 @@
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/mascotas1.jpg" class="d-block w-100" alt="...">
+      <img src="https://cdn.pixabay.com/photo/2018/10/01/09/21/pets-3715733_960_720.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/mascotas2.jpg" class="d-block w-100" alt="...">
+      <img src="https://cdn.pixabay.com/photo/2021/01/02/23/55/dog-5883275_960_720.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/mascotas3.jpg" class="d-block w-100" alt="...">
+      <img src="https://media.istockphoto.com/photos/funny-cat-and-dog-beauty-salon-spa-treatments-for-animals-picture-id667292426?k=20&m=667292426&s=612x612&w=0&h=ySTEMr3V2co-omdRRzXcwx4yLlal2_Be7cqsUvxzkt8=" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
