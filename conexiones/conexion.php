@@ -14,7 +14,7 @@ class Database
         $this->host = 'localhost';
         $this->db = 'spacanino';
         $this->user = 'root';
-        $this->password = '';
+        $this->password = '12345678';
         $this->charset  = 'utf8mb4';
     }
 
@@ -37,5 +37,3 @@ class Database
         }
     }
 }
-
-?>
