@@ -1,39 +1,16 @@
 <?php
-class Database
-{
+// datos de la database
+$hostname = "localhost";
+$username = "root";
+$password = "";
+$Database = "spacanino";
 
-    private $host;
-    private $user;
-    private $password;
-    private $db;
-    private $charset;
+$mysqli = new mysqli ($hostname, $username, $password, $Database);
 
-    public function __construct()
+//conectividad
+if ($mysqli -> connect_errno) {
 
-    {
-        $this->host = 'localhost';
-        $this->db = 'spacanino';
-        $this->user = 'root';
-        $this->password = '12345678';
-        $this->charset  = 'utf8mb4';
-    }
-
-    function connect()
-    {
-        try {
-
-
-            $connection = "mysql:host=" . $this->host . ";dbname=" . $this->db . ";charset=" . $this->charset;
-            $options = [
-                PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
-                PDO::ATTR_EMULATE_PREPARES   => false,
-            ];
-            //$pdo = new PDO($connection, $this->user, $this->password, $options);
-            $pdo = new PDO($connection, $this->user, $this->password);
-
-            return $pdo;
-        } catch (PDOException $e) {
-            print_r('Error connection: ' . $e->getMessage());
-        }
-    }
+    die("fallo la conexion" . mysqli_connect_errno());
 }
+
+?>
