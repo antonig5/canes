@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+
 include_once 'conexiones/conexion.php'  ;
 
 ?>
@@ -80,15 +80,6 @@ var clave = document.getElementById('clave');
 var usuario = document.getElementById('usuario');
 
 
-
-fetch('json/users.php?id_usu=123')
-    .then(res=>res.json())
-    .then(data=>{
-      console.log(data.id_usu="123");
-        if (usuario == data.id_usu) {
-            window.location='admin/index.php';
-        }
-    });
 
 
 btn.addEventListener('click', function(evt){
